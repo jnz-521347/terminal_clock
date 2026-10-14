@@ -32,7 +32,7 @@ require("dayjs/locale/es");
 require("dayjs/locale/en-gb");
 function AppContent() {
   const { locale, click } = useApp();
-  const [navToggled, setNavToggled] = useState(false);
+  const [navToggled, setNavToggled] = useState(true);
 
   useEffect(() => {
     const handleClick = (e) => {
