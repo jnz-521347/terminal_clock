@@ -30,8 +30,7 @@ export default function Clock({ locale, click }) {
           <span>{time.hours}</span>
           <span className="separator">:</span>
           <span>{time.minutes}</span>
-          <span className="separator">:</span>
-          <span>{time.seconds}</span>
+          <span className="time-seconds">{time.seconds}</span>
         </div>
         {/* <div className="now-playing">
           <span className="n-playing-txt">
