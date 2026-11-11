@@ -34,7 +34,7 @@ export default function Pomodoro({locale}) {
       <div className={pomosDuration == 25 &&pomoIsRunning
         ? 'head-div work' 
         : pomosDuration == 5 && pomoIsRunning
-          ? 'head- div pause' 
+          ? 'head-div pause' 
           : pomosDuration==15 && pomoIsRunning
             ? 'head-div l-pause' 
             : 'head-div'}>
